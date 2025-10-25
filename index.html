@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLBB Winrate Calculator</title>
+    <title>Winrate Calculator</title>
     <style>
         :root {
             --primary: #ff5722;
@@ -203,17 +203,17 @@
             <div class="calculator">
                 <div class="input-group">
                     <label for="currentWinrate">Current Winrate (%)</label>
-                    <input type="number" id="currentWinrate" min="0" max="100" step="0.01" placeholder="80">
+                    <input type="number" id="currentWinrate" min="0" max="100" step="0.01" placeholder="Input your Winrate Here">
                 </div>
                 
                 <div class="input-group">
                     <label for="totalMatches">Total Matches Played</label>
-                    <input type="number" id="totalMatches" min="1" placeholder="70">
+                    <input type="number" id="totalMatches" min="1" placeholder="Input the number of matches you played">
                 </div>
                 
                 <div class="input-group">
                     <label for="desiredWinrate">Desired Winrate (%)</label>
-                    <input type="number" id="desiredWinrate" min="0" max="100" step="0.01" placeholder="98">
+                    <input type="number" id="desiredWinrate" min="0" max="100" step="0.01" placeholder="Enter your desired Winrate">
                 </div>
             </div>
             
@@ -228,17 +228,13 @@
         </div>
         
         <div class="card explanation">
-            <h3>How Does It Work?</h3>
-            <p>This calculator uses a mathematical formula to determine how many consecutive wins you need to reach your desired winrate.</p>
-            <p>The formula used:</p>
-            <p><strong>Wins Needed = (Desired Winrate * Total Matches - Current Wins) / (1 - Desired Winrate)</strong></p>
-            <p>Where Current Wins = Current Winrate * Total Matches / 100</p>
-        </div>
+            <h3>Author Information:</h3>
+            <p>GitHub : @dvalgtr</p>
     </div>
     
     <footer>
         <div class="container">
-            <p>MLBB Winrate Calculator &copy; 2023</p>
+            <p>dvalgtr | winrate calculator &copy; 2025</p>
         </div>
     </footer>
     
